@@ -31,6 +31,7 @@ while True:
     match opc:
         case 1:
             p = Producto()
+            lista.append(p)
         case 2:
             if not validarEntrada(lista):
                 continue
